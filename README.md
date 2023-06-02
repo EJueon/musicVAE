@@ -1,5 +1,6 @@
 # MusicVAE (Pytorch Implementation)
-Music VAE : https://arxiv.org/pdf/1803.05428.pdf
+Music VAE : https://arxiv.org/pdf/1803.05428.pdf 
+<br /> 
 Groove MIDI Dataset: https://magenta.tensorflow.org/datasets/groove
 
 #### 논문 요약
