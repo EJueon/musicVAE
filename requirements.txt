@@ -1,0 +1,5 @@
+torch==1.13.1
+OmegaConf>=2.3.0
+pretty_midi
+note-seq
+wandb
