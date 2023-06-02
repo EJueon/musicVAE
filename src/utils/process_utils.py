@@ -1,7 +1,7 @@
 from typing import Dict, List
 
 import sys
-
+import os
 import numpy as np
 from pretty_midi import PrettyMIDI, Note, Instrument
 from tqdm import tqdm
@@ -154,7 +154,7 @@ def preprocess(dir_path: str, extensions: List[str] = []):
 
             if instrument.is_drum:
                 drum_roll = get_drum_roll(instrument.notes, fs, times)
-                data.append((file_path, drum_roll))
+                data.append((os.path.basename(file_path), drum_roll))
 
         except Exception as e:
             print(f"Error file: {file_path}, {e}")
