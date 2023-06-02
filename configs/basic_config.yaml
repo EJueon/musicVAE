@@ -1,0 +1,36 @@
+seed: 2023
+project_name: "musicVAE"
+run_name: "test"
+
+# Preprocess
+extensions: ['.mid', '.midi']
+dev_ratio: 0.2
+
+# Model Hyperparameter
+max_epochs: 100
+batch_size: 32
+max_len: 64 # 4-bar
+num_workers: 4
+shuffle: True
+lr: 1e-3
+dropout_rate: 0.2
+
+
+enc_latent_dim: 512
+conductor_dim: 512
+enc_hidden_size: 2048
+dec_hidden_size: 1024
+conductor_hidden_size: 1024
+enc_num_layers: 2
+dec_num_layers: 2
+conductor_num_layers: 2
+
+# paths
+train_dataset_path: "../data/train_data.json"
+dev_dataset_path: "../data/dev_data.json"
+test_dataset_path: "../data/dev_data.json"
+
+save_dir: "../data"
+ckpt_dir: "ckpt"
+
+save_period: 5
