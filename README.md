@@ -99,4 +99,5 @@ python main.py --opt=generate --config=../config path --model_path=../data/ckpt/
 - CosineAnnealingWarmRestarts scheduler
 - criterion = ELBO loss
 - train dataset과 dev dataset은 8:2로 고정하여 학습 진행 
-<img width="967" alt="image" src="https://github.com/EJueon/music_VAE/assets/93572176/79966e93-17dc-480e-a04f-0262dc6cd4d1">
+
+<img width="967" alt="" src="https://github.com/EJueon/musicVAE/assets/93572176/41131e3f-36d1-4f6a-a676-87ada2acc8d3">
